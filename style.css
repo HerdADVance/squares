@@ -1,0 +1,78 @@
+.Alex{background-color: lightblue;}
+.Andy{background-color: khaki;}
+.Ben{background-color: lightgreen;}
+.Beverage{background-color: pink;}
+.Chuy{background-color: lightyellow;}
+.Cody{background-color: darkorange;}
+.Durbin{background-color: silver;}
+.Endicott{background-color: darkred;}
+.Jeff{background-color: turquoise;}
+.Joel{background-color: crimson;}
+.Tony{background-color: blueviolet;}
+.Wheeler{background-color: cornflowerblue;}
+
+
+*{
+	box-sizing: border-box;
+}
+body{
+	text-align: center;
+}
+.clear{
+	overflow: auto;
+}
+.clear::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.squares-wrap{
+	margin: 0px auto;
+	position: relative;
+	width: 660px;
+}
+
+h1{
+	font-size: 22px;
+	margin-top: 5px;
+}
+
+h1.team2{
+	left: -30px;
+	position: absolute;
+	top: 360px;
+	transform: rotate(-90deg);
+}
+
+.number{
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+	height: 30px;
+	width: 60px;
+}
+
+.side{
+	float: left;
+}
+
+.side-number{
+	height: 60px;
+	line-height: 60px;
+}
+
+.squares{
+	float: left;
+}
+.square{
+	border: 1px solid #EEE;
+	float: left;
+	font-size: 13px;
+	height: 60px;
+	line-height: 60px;
+	width: 60px;
+}
+.no-border{
+	border: none;
+	height: 30px;
+}
